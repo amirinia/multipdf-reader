@@ -1,0 +1,23 @@
+,name,0
+0,pdfs\2.pdf,Activity:  Ar chi tecture Modeling  Importance   Understanding models and views that can capture an architecture is very  important  in software  architecture design
+1,pdfs\2.pdf, Model views have to also be consistent among the different views
+2,pdfs\2.pdf,   Learning Objectives    To  understand about common notations use d for architectural modeling that include the UML  and box and line drawings
+3,pdfs\2.pdf,   To understand how  architectural  views  are related to each other
+4,pdfs\2.pdf,  Success Criteria    To be able to  create both UML and natural  language  descriptions for some simple  architectures 
+5,pdfs\2.pdf, Resources    Course notes on  Software Architectural models   Online resources on UML package diagrams such as  o https://www
+6,pdfs\2.pdf,visual -paradigm
+7,pdfs\2.pdf,com/guide/uml -unified -modeling -language/what -is-package -diagram/  Exercise s Below is a sequence diagram of an Actuator -Sensor pattern realization for a SafeHome  application that controls the positioning of a security camera
+8,pdfs\2.pdf,   1
+9,pdfs\2.pdf," From this diagram it is possible to define a compatible component diagram, i"
+10,pdfs\2.pdf,e
+11,pdfs\2.pdf, the  components are the ent ities in the sequence diagram and messages must be sent via  interfaces
+12,pdfs\2.pdf, Draw  a component diagram that has a consistent view with the sequence diag ram
+13,pdfs\2.pdf,    2
+14,pdfs\2.pdf, Read through the cash register requirements  posted  in Bl ackboard with this exercise and  using the n atural language notation write  descriptions of the components  envisioned in this  system
+15,pdfs\2.pdf,  Note:  Components are similar to Classes  except that they may  consist of several  classes interacting through a common Interface
+16,pdfs\2.pdf," As such  you can leverage t he noun -phrases  procedure typically used to extract Classes from a text ual  description of  a scenario,  where  nouns are u sed to define Classes"
+17,pdfs\2.pdf, In a simila r fashion verbs in scenarios can help identify  communication  between components
+18,pdfs\2.pdf,  3
+19,pdfs\2.pdf, One could argue that creating a component diagram for the Cash Register system is a bit pre -mature an d as such  a UML Package diagram is  more suitable
+20,pdfs\2.pdf,  Use the knowledge  acquired  from question 2 to create a UML Package  representation  of  the Cash Register system and  perceived  dependencies
+21,pdfs\2.pdf,    
