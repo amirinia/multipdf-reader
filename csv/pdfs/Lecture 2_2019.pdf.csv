@@ -1,0 +1,185 @@
+,name,0
+0,pdfs\Lecture 2_2019.pdf,"Lecture 2 Shahryar Rahnamayan, PhD, PEng, SMIEEE Department Chair and Associate Professor  SIRC 3330 11:10 AM  - 2:00 PM  Fri"
+1,pdfs\Lecture 2_2019.pdf,", Sept"
+2,pdfs\Lecture 2_2019.pdf," 13, 2019 1 2 A sample  real - world benchmark  problem  Why do we use benchmark  functions?  3 Gaussians Landscape Generator 4 http://itee"
+3,pdfs\Lecture 2_2019.pdf,uq
+4,pdfs\Lecture 2_2019.pdf,edu
+5,pdfs\Lecture 2_2019.pdf,au/~marcusg/msg
+6,pdfs\Lecture 2_2019.pdf,html 5 http://itee
+7,pdfs\Lecture 2_2019.pdf,uq
+8,pdfs\Lecture 2_2019.pdf,edu
+9,pdfs\Lecture 2_2019.pdf,au/~marcusg/msg
+10,pdfs\Lecture 2_2019.pdf,html 6 http://itee
+11,pdfs\Lecture 2_2019.pdf,uq
+12,pdfs\Lecture 2_2019.pdf,edu
+13,pdfs\Lecture 2_2019.pdf,au/~marcusg/msg
+14,pdfs\Lecture 2_2019.pdf,html Landscape generators  Vs
+15,pdfs\Lecture 2_2019.pdf,"  Benchmark functions  7 Assignment One   8 9 Implementation Assignment (1):  Implementing  in Matlab, and plotting 3D map 10 11 12 13 14  15 Optimization Methods Classifications  16 [Feoktistov 2006] 17 Classical optimization models 18 Non - linear  and non - convex? Optimization Methods   Exact Methods:  Guarantees the optimality  Approximate Methods:   but they give a boundary estimation (closeness to the  optimal solution)  Metaheuristics :    with not a boundary estimation  19 Metaheuristics   Origin in the old Greek word  heuriskein , which means the art of discovering new strategies (rules) to solve  problems"
+16,pdfs\Lecture 2_2019.pdf," The suffix  meta , also  a Greek word, means    Metaheuristic search methods can be defined as upper  level general methodologies (templates) that can be  used as guiding strategies in designing underlying  heuristics to solve specific optimization problems"
+17,pdfs\Lecture 2_2019.pdf, 20 Optimization Procedure 21 1 2 3 Formulate the problem  A decision problem is identified
+18,pdfs\Lecture 2_2019.pdf,   An initial statement of the problem is made
+19,pdfs\Lecture 2_2019.pdf,   This formulation may be imprecise
+20,pdfs\Lecture 2_2019.pdf,  The internal and external factors and the objective(s) of  the problem are outlined
+21,pdfs\Lecture 2_2019.pdf,  Many decision makers may be involved in formulating the  problem
+22,pdfs\Lecture 2_2019.pdf," 22 Model the problem  In this important step, an abstract mathematical model is  built for the problem (if possible)"
+23,pdfs\Lecture 2_2019.pdf,   The modeler can be inspired by similar models in the      literature
+24,pdfs\Lecture 2_2019.pdf, This will reduce the problem to well - studied  optimization models
+25,pdfs\Lecture 2_2019.pdf,"  Usually, models we are solving are simplifications of the  reality"
+26,pdfs\Lecture 2_2019.pdf, They involve approximations and sometimes they  skip processes that are complex to represent in a  mathematical model (see next slide)
+27,pdfs\Lecture 2_2019.pdf, 23 Assignments two   24 25 BQ
+28,pdfs\Lecture 2_2019.pdf, A highly critical question: Exact solution for  approximate model or  approximate solution  for  exact  model?  26 NFL: No free lunch theorem  algorithms are equivalent when  their performance is averaged across all possible   Wolpert and W
+29,pdfs\Lecture 2_2019.pdf," Macready, 1997 27 NFL and Optimal Mapping Challenge 28 Optimal  Mapping Type of Problem  Single/multi Objective   Uni - /multi Modal  Noisy/Noise - free  Large - Scale  Expensive  Dynamic   Type of Algorithm  Classical methods   GA  PSO  DE   Goal  Find first solution fast  Find more solutions  Find robust solution   Different Problem Complexities 29 Prof"
+30,pdfs\Lecture 2_2019.pdf," K Deb course notes, ECE802 - 603: Evolutionary Multi - Criterion Opt"
+31,pdfs\Lecture 2_2019.pdf," and Decision Making, ECE, MSU, USA 30 Nature Inspired Intelligent Techniques for  Problem Solving  31 Nanoshapes obtained using the DNA origami DNA - based circuits Digital Evolution  Partial Swarm Intelligence  Artificial Neural Networks (ANN)  Robotic Design  Reinforcement Learning (RL)   Let us consider a population of rabbits"
+32,pdfs\Lecture 2_2019.pdf," Some                             rabbits are faster than others, and we may say that                           these rabbits possess superior fitness, because they                               have a greater chance of avoiding foxes, surviving                             and then breeding"
+33,pdfs\Lecture 2_2019.pdf,"  If two parents have superior fitness, there is a good                         chance that a combination of their genes will                                     produce an offspring with even higher fitness"
+34,pdfs\Lecture 2_2019.pdf,                                      Over time the entire population of rabbits becomes                                    faster to meet their environmental challenges in the                           face of foxes
+35,pdfs\Lecture 2_2019.pdf," How is a population with increasing                                           fitness generated? 32 Simulation of natural evolution  All methods of evolutionary computation  simulate natural evolution by creating a  population of individuals, evaluating their  fitness, generating a new population through  genetic operations, and repeating this  process a number of times"
+36,pdfs\Lecture 2_2019.pdf,  We will start with Genetic Algorithms (GAs)  as most of the other evolutionary algorithms  can be viewed as variations of genetic  algorithms
+37,pdfs\Lecture 2_2019.pdf, 33 Can evolution be intelligent?  Intelligence can be defined as the capability of a            system to adapt its behavior to ever - changing                                environment
+38,pdfs\Lecture 2_2019.pdf," According to Alan Turing, the form                              or appearance of a system is irrelevant to its               intelligence"
+39,pdfs\Lecture 2_2019.pdf,  Evolutionary computation simulates evolution on a  computer
+40,pdfs\Lecture 2_2019.pdf," The result of such a simulation is a                                     series of optimization algorithms, usually based on                           a simple set of rules"
+41,pdfs\Lecture 2_2019.pdf," Optimization iteratively                         improves the quality of solutions until an optimal, or  at least feasible, solution is found"
+42,pdfs\Lecture 2_2019.pdf, 34  The evolutionary approach is based on                              computational models of natural selection and                                genetics
+43,pdfs\Lecture 2_2019.pdf," We call them evolutionary                                         computation, an umbrella term that combines                        genetic algorithms, evolution strategies and                        genetic programming"
+44,pdfs\Lecture 2_2019.pdf," 35 Simulation of natural evolution  In July 1, 1858, Charles Darwin presented his              theory of evolution"
+45,pdfs\Lecture 2_2019.pdf,  This day marks the  beginning of a revolution in biology
+46,pdfs\Lecture 2_2019.pdf,     now represent the neo - Darwinian paradigm
+47,pdfs\Lecture 2_2019.pdf," 36  Neo - Darwinism is based on processes of          reproduction, mutation, competition and  selection"
+48,pdfs\Lecture 2_2019.pdf, The power to reproduce appears to  be an essential property of life
+49,pdfs\Lecture 2_2019.pdf, The power to  mutate is also guaranteed in any living  organism that reproduces itself in a  continuously changing environment
+50,pdfs\Lecture 2_2019.pdf,"             Processes of competition and selection  normally take place in the natural world,  where expanding   populations of different  species are limited by a finite space"
+51,pdfs\Lecture 2_2019.pdf, 37  Evolution can be seen as a process leading to   survive and reproduce in a specific  environment
+52,pdfs\Lecture 2_2019.pdf, This ability is called evolutionary  fitness
+53,pdfs\Lecture 2_2019.pdf,  Evolutionary fitness can also be viewed as a                             changes in its environment
+54,pdfs\Lecture 2_2019.pdf,"  The fitness, or the quantitative measure of the                         ability to predict environmental changes and                            respond adequately, can be considered as the                              quality that is optimized in natural life"
+55,pdfs\Lecture 2_2019.pdf, 38  Genetic Algorithm (GA) [2:56] 39 Prof
+56,pdfs\Lecture 2_2019.pdf," Richard  Lenski  Experimental Evolution 40 Genetic Algorithms  In the early 1970s, John Holland introduced  the concept of genetic algorithms"
+57,pdfs\Lecture 2_2019.pdf,  His aim was to make computers do what  nature does
+58,pdfs\Lecture 2_2019.pdf, Holland was concerned with  algorithms that manipulate strings of binary  digits
+59,pdfs\Lecture 2_2019.pdf,    represented by 0 or 1: 41  Nature has an ability to adapt and learn without  being told what to do
+60,pdfs\Lecture 2_2019.pdf," In other words, nature  finds good chromosomes blindly"
+61,pdfs\Lecture 2_2019.pdf, GAs do the  same
+62,pdfs\Lecture 2_2019.pdf, Two mechanisms link a GA to the  problem it is solving: encoding and evaluation
+63,pdfs\Lecture 2_2019.pdf,  The GA uses a measure of fitness of individual  chromosomes to carry out reproduction
+64,pdfs\Lecture 2_2019.pdf," As  reproduction takes place, the crossover  operator exchanges parts of two single  chromosomes, and the mutation operator  changes the gene value in some randomly  chosen location of the chromosome"
+65,pdfs\Lecture 2_2019.pdf," 42 Basic genetic algorithms Step 1:   Represent the problem variable domain  as a chromosome of a fixed length, choose  the size of a chromosome population  N , the  crossover probability  p c and the mutation  probability  p m "
+66,pdfs\Lecture 2_2019.pdf," Step 2:   Define a fitness function to measure the  performance, or fitness, of an individual                chromosome in the problem domain"
+67,pdfs\Lecture 2_2019.pdf, The  fitness function establishes the basis for  selecting chromosomes that will be mated  during reproduction
+68,pdfs\Lecture 2_2019.pdf,"  43 Step 3:  Randomly generate an initial population  of chromosomes of size  N :                                                      x 1 ,  x 2 , "
+69,pdfs\Lecture 2_2019.pdf, 
+70,pdfs\Lecture 2_2019.pdf, 
+71,pdfs\Lecture 2_2019.pdf," ,  x N Step 4:  Calculate the fitness of each individual                                chromosome:                                                                                                    f  ( x 1 ),  f  ( x 2 ), "
+72,pdfs\Lecture 2_2019.pdf, 
+73,pdfs\Lecture 2_2019.pdf, 
+74,pdfs\Lecture 2_2019.pdf," ,  f  ( x N ) Step 5:  Select a pair of chromosomes for mating                                    from the current population"
+75,pdfs\Lecture 2_2019.pdf, Parent                           chromosomes are selected with a probability                               related to their fitness
+76,pdfs\Lecture 2_2019.pdf, 44 Step 6:  Create a pair of offspring chromosomes  by applying the genetic operators  - crossover  and mutation
+77,pdfs\Lecture 2_2019.pdf, Step 7:  Place the created offspring  chromosomes in the new population
+78,pdfs\Lecture 2_2019.pdf," Step 8:  Repeat Step 5  until the size of the new                   chromosome population becomes equal to the                                    size of the initial population,  N "
+79,pdfs\Lecture 2_2019.pdf, Step 9:  Replace the initial (parent) chromosome                   population with the new (offspring) population
+80,pdfs\Lecture 2_2019.pdf," Step 10:  Go to  Step 4 , and repeat the process  until the termination criterion is satisfied"
+81,pdfs\Lecture 2_2019.pdf,  45 Genetic algorithms  GA represents an iterative process
+82,pdfs\Lecture 2_2019.pdf,  Each  iteration is called a generation
+83,pdfs\Lecture 2_2019.pdf,   A common practice is to terminate a GA after a  specified number of generations and then  examine the best chromosomes in the  population
+84,pdfs\Lecture 2_2019.pdf," If no satisfactory solution is found,  the GA is restarted"
+85,pdfs\Lecture 2_2019.pdf,"  Because GAs use a stochastic search method,  the fitness of a population may remain stable for  a number of generations before a superior  chromosome appears"
+86,pdfs\Lecture 2_2019.pdf, 46 47 Genetic algorithms  - evolution of a 2D car in Unity  [5:41] 48 AI Simulation of Fish Tank (Genetic  algorithm with Neural networks)[11:14] Genetic Algorithm (GA): Three case studies 49 Genetic algorithms: Case study I A simple example will help us to understand how             a GA works
+87,pdfs\Lecture 2_2019.pdf, Let us find the maximum value of             the function (15 x  - x 2 ) where parameter  x varies           between 0 and 15
+88,pdfs\Lecture 2_2019.pdf," For simplicity, we may               assume that  x  takes only integer values"
+89,pdfs\Lecture 2_2019.pdf," Thus,               chromosomes can be built with only four genes: 50 Suppose that the size of the chromosome  population  N is 6, the crossover probability  p c equals 0"
+90,pdfs\Lecture 2_2019.pdf,"7, and the mutation probability  p m equals 0"
+91,pdfs\Lecture 2_2019.pdf,001
+92,pdfs\Lecture 2_2019.pdf," The fitness function in our  example is defined by max f ( x ) =  15  x   x 2 51 The fitness function and chromosome locations 52  In natural selection, only the fittest species  can survive, breed, and thereby pass their  genes on to the next generation"
+93,pdfs\Lecture 2_2019.pdf," GAs use a  similar approach, but unlike nature, the size of  the population remains unchanged from one  generation to the next"
+94,pdfs\Lecture 2_2019.pdf,  The last column in the previous Table  shows the ratio of the individual   total fitness
+95,pdfs\Lecture 2_2019.pdf, This ratio determines the    improves from one generation to the next
+96,pdfs\Lecture 2_2019.pdf," 53 Roulette wheel selection 54 Crossover operator  In our example, we have an initial population of  6  chromosomes"
+97,pdfs\Lecture 2_2019.pdf," Thus, to establish the same                                      population in the next generation, the roulette                                         wheel would be spun six times"
+98,pdfs\Lecture 2_2019.pdf,"   Once a pair of parent chromosomes is  selected, the crossover operator is applied"
+99,pdfs\Lecture 2_2019.pdf," 55  First, the crossover operator randomly  chooses a crossover point where two parent   the chromosome parts after that point"
+100,pdfs\Lecture 2_2019.pdf," As a  result, two new offspring are created"
+101,pdfs\Lecture 2_2019.pdf,"  If a pair of chromosomes does not cross  over, then the chromosome cloning takes  place, and the offspring are created as exact  copies of each parent"
+102,pdfs\Lecture 2_2019.pdf, 56 Crossover 57 Mutation operator  Mutation represents a change in the gene
+103,pdfs\Lecture 2_2019.pdf,"  The mutation probability is quite small in  nature, and is kept low for GAs, typically in the  range between 0"
+104,pdfs\Lecture 2_2019.pdf,001 and 0
+105,pdfs\Lecture 2_2019.pdf,01
+106,pdfs\Lecture 2_2019.pdf,  The mutation operator flips a randomly  selected gene in a chromosome
+107,pdfs\Lecture 2_2019.pdf,  Mutation is a background operator
+108,pdfs\Lecture 2_2019.pdf, Its role  is to provide a guarantee that the search  algorithm is not trapped on a local optimum
+109,pdfs\Lecture 2_2019.pdf, 58 Mutation 59 The genetic algorithm cycle 60 Genetic algorithms: Case study II  Suppose it is desired to find the maximum of    The first step is to represent the problem  variables as a chromosome  - parameters  x  and  y  as a concatenated binary string: where parameters  x  and  y  vary between  - 3 and 3
+110,pdfs\Lecture 2_2019.pdf," 61  We also choose the size of the chromosome                     population, for instance 6, and randomly  generate an initial population"
+111,pdfs\Lecture 2_2019.pdf,"  Then these strings are converted from binary                     (base 2) to decimal (base 10):  First, a chromosome, that is a string of 16  bits, is partitioned into two 8 - bit strings:  The next step is to calculate the fitness of  each chromosome"
+112,pdfs\Lecture 2_2019.pdf, This is done in two stages
+113,pdfs\Lecture 2_2019.pdf," 62  Now the range of integers that can be handled  by 8 - bits, that is the range from 0 to (2 8 - 1), is                    mapped to the actual range of parameters  x  and  y , that is the range from  - 3 to 3:  To obtain the actual values of  x  and  y , we  multiply their decimal values by 0"
+114,pdfs\Lecture 2_2019.pdf,"0235294  and subtract 3 from the results: 63  Using decoded values of  x  and  y  as inputs in  the mathematical function, the GA calculates  the fitness of each chromosome"
+115,pdfs\Lecture 2_2019.pdf,   will use crossover with the probability equal to  0
+116,pdfs\Lecture 2_2019.pdf,7 and mutation with the probability equal to  0
+117,pdfs\Lecture 2_2019.pdf,001
+118,pdfs\Lecture 2_2019.pdf," As we mentioned earlier, a common  practice in GAs is to specify the number of  generations"
+119,pdfs\Lecture 2_2019.pdf, Suppose the desired number of  generations is 100
+120,pdfs\Lecture 2_2019.pdf," That is, the GA will create  100 generations of 6 chromosomes before  stopping"
+121,pdfs\Lecture 2_2019.pdf, 64 Chromosome locations on the surface of the   65 Chromosome locations on the surface of the   66 Chromosome locations on the surface of   67 Chromosome locations on the surface of   68 Performance graphs for 100 generations of 6  chromosomes: local maximum F i t n e s s 69 Performance graphs for 100 generations of 6  chromosomes: global maximum F i t n e s s 70 Performance graphs for 20 generations of   60 chromosomes F i t n e s s 71 Case study III: Maintenance scheduling  Maintenance scheduling problems are usually                                solved using a combination of search  techniques and heuristics
+122,pdfs\Lecture 2_2019.pdf,  These problems are complex and difficult to                                solve
+123,pdfs\Lecture 2_2019.pdf,  They are NP - complete and cannot be solved  by combinatorial search techniques
+124,pdfs\Lecture 2_2019.pdf,"  Scheduling involves competition for limited                    resources, and is complicated by a great  number of badly formalized constraints"
+125,pdfs\Lecture 2_2019.pdf, 72 1
+126,pdfs\Lecture 2_2019.pdf," Specify the problem, define constraints  and optimum criteria; 2"
+127,pdfs\Lecture 2_2019.pdf, Represent the problem domain as a                       chromosome; 3
+128,pdfs\Lecture 2_2019.pdf, Define a fitness function to evaluate the              chromosome performance; 4
+129,pdfs\Lecture 2_2019.pdf, Construct the genetic operators; 5
+130,pdfs\Lecture 2_2019.pdf, Run the GA and tune its parameters
+131,pdfs\Lecture 2_2019.pdf," Steps in the GA development 73 Case study Scheduling of 7 units in 4 equal intervals  The maximum loads expected during four intervals  are 80, 90, 65 and 70 MW;  Maintenance of any unit starts at the beginning of  an interval and finishes at the end of the same or  adjacent interval"
+132,pdfs\Lecture 2_2019.pdf, The maintenance cannot be  aborted or finished earlier than scheduled;  The net reserve of the power system must be  greater or equal to zero at any interval
+133,pdfs\Lecture 2_2019.pdf, The optimum criterion is the maximum of the net                        reserve at any maintenance period
+134,pdfs\Lecture 2_2019.pdf," The problem constraints: 74 Unit data and maintenance requirements Case study Unit  number  Unit  capacity Number of intervals  required  for unit maintenance  1 20 2 2 15 2 3 35 1 4 40 1 5 15 1 6 15 1 7 10 1 loads expected during four intervals are                           80, 90, 65 and 70 MW, respectively"
+135,pdfs\Lecture 2_2019.pdf,  75 Unit gene pools Chromosome for the scheduling problem 76 The crossover operator 77 The mutation operator 78 Performance graphs and the best maintenance                       schedules created in a population of 20 chromosomes ( a ) 50 generations F i t n e s s M W 79 ( b ) 100 generations Performance graphs and the best maintenance                       schedules created in a population of 20 chromosomes F i t n e s s 80 ( b ) Mutation rate is 0
+136,pdfs\Lecture 2_2019.pdf,01 Performance graphs and the best maintenance                schedules created in a population of 100 chromosomes F i t n e s s 81 Performance graphs and the best maintenance                schedules created in a population of 100 chromosomes ( a ) Mutation rate is 0
+137,pdfs\Lecture 2_2019.pdf,001 82 Fitness Function  83 Genetic Cars [Java Applet] 84 Brian storming:  Why genetic algorithms work? Think intuitively and  mathematically
+138,pdfs\Lecture 2_2019.pdf, 85  the aerodynamic shape of its nose using GA  86 Neuro - evolution  - Car learns to drive [5:52] 87 Adapting Morphology to Multiple Tasks in  Evolved Virtual Creatures [6:02] 88 89 Auto adaptable walking robot with genetic  algorithm (2:57)  Evolved Virtual Creature [3:36] 90 Genetic algorithm
+139,pdfs\Lecture 2_2019.pdf, Learning to jump over  ball [2:53] 91 Let us practice one hour thinking at  home! Q1
+140,pdfs\Lecture 2_2019.pdf, What is my life most important question? Q2
+141,pdfs\Lecture 2_2019.pdf, What is my life most important optimization  problem? Q3
+142,pdfs\Lecture 2_2019.pdf, Which research real - world applications are more  attractive for me? And why? Q4
+143,pdfs\Lecture 2_2019.pdf, How can I balance my study/work and life? Q5
+144,pdfs\Lecture 2_2019.pdf, Who is/are my academic and life role model(s)? Q6
+145,pdfs\Lecture 2_2019.pdf, How did/do I select my research direction(s)? 92 Let us practice one hour thinking at  home!  (Cont
+146,pdfs\Lecture 2_2019.pdf,) Q7
+147,pdfs\Lecture 2_2019.pdf, Do I target academia or industry in future?  Q8
+148,pdfs\Lecture 2_2019.pdf, How do I measure successes in my life? Q9
+149,pdfs\Lecture 2_2019.pdf, What are the main constraints in my life? Q10
+150,pdfs\Lecture 2_2019.pdf, How can I have a better relationship with my  supervisor(s)?  Q11
+151,pdfs\Lecture 2_2019.pdf, What can be my highest life achievement?  Q12
+152,pdfs\Lecture 2_2019.pdf, How can I make my life more happier?  93 Running GA in Matlab: An Example  Run in  Matlab :   optimtool (' ga ') Objective function: @(x) (x(1)  - 0
+153,pdfs\Lecture 2_2019.pdf,2)^2 + (x(2)  - 1
+154,pdfs\Lecture 2_2019.pdf,7)^2 + (x(3)  - 5
+155,pdfs\Lecture 2_2019.pdf,"1)^2 94 95 Sample GA application   Programming Architecture  - Genetic Algorithms  - Structural Optimization Of Free Form Grid Shells  [2:11]  96 Radiation Therapy Planning by  Genetic Algorithm  [4:33] 97 Reducing the searching space by using well - designed representation  98 8 - Queen Problem  Method 1) Encode a solution by a vector of eight Cartesian  positions x = (p1, p2, "
+156,pdfs\Lecture 2_2019.pdf, 
+157,pdfs\Lecture 2_2019.pdf, 
+158,pdfs\Lecture 2_2019.pdf," , p8) where pi = (xi, yi) represents  the Cartesian position of the queen i:  The number of  possibilities (size of the search space)=  64^8 that is over  4  billion candidate solutions "
+159,pdfs\Lecture 2_2019.pdf,"  Method 2) If we prohibit more than one queen per row, so  that each queen is assigned to a separate row:  The number  of possibilities = 8^8 candidate solutions which is over  16  million possibilities (~0"
+160,pdfs\Lecture 2_2019.pdf,4% of method 1) 
+161,pdfs\Lecture 2_2019.pdf,"  Method 3) if we forbid two queens to be both in the same  column or row, the encoding will be reduced to a  permutation of the n queens:  The number of possibilities =  n! candidate solutions, which is only  40,320 possibilities  for  the 8 - Queens problem  (~0"
+162,pdfs\Lecture 2_2019.pdf,001% of method 1)
+163,pdfs\Lecture 2_2019.pdf," 99 Important Conclusion  Do your best to reduce the search space   unnecessarily heavy task on shoulder of  an optimizer by just doing a fast modeling  100 Bonus Question For which of following cases, does the search space grow  faster? Why? Show mathematically"
+164,pdfs\Lecture 2_2019.pdf," a) Increasing range of the variables by factor of k b) Increasing dimension of the search space  by factor of k 101 Bonus task:  Design a GA (chromosome, crossover,  mutation, fitness function) to solve 8 - queen problem [1%] 102 BQ What is the most difficult two dimensional problem, which  even the super computers are not able to solve it? 103 Evolution is a Blind Watchmaker [9:48] 104 U"
+165,pdfs\Lecture 2_2019.pdf, S
+166,pdfs\Lecture 2_2019.pdf," PATENT 5,719,794  105 Antenna Design  The problem (Altshuler and Linden 1998) is to  determine the  x - y - z coordinates of the 3 - dimensional position of the ends ( X1, Y1, Z1, X2, Y2,   ) of 7 straight wires so that the  resulting 7 - wire antenna satisfies certain  performance requirements  The first wire starts at feed point (0, 0, 0) in the  middle of the ground plane  The antenna must fit inside the 0"
+167,pdfs\Lecture 2_2019.pdf,5  cube 106 Antenna Design  105 - bit chromosome  Each  x - y - z coordinate is represented by 5 bits  (4 - bit granularity for data plus a sign bit)  Total chromosome size is 3   7   5 = 105 bits X 1 Y 1 Z 1 X 2 Y 2 Z 2  +0010 - 1110 +0001 +0011 - 1011 +0011  107 Antenna Fitness  Antenna is for ground - to - satellite communications for  cars and handsets  We desire near - uniform gain pattern 10  above the  horizon  Fitness is measured based on the antenna's radiation  pattern
+168,pdfs\Lecture 2_2019.pdf," The radiation pattern is simulated by National  Electromagnetics Code (NEC) 108 Antenna Fitness   Fitness is sum of the squares of the difference between  the average gain and the antenna's gain  Sum is taken for angles   between  - 90  and +90  and  all azimuth angles   from 0  to 180   The smaller the value of fitness, the better 109 NASA EVOLVED ANTENNA Utilized in the satellite launched in 2006 110 111 Designing 3D solar cells (MIT)  112 113 114 115 Eternity II (X256) , $2M problem 116 What kind of the optimization problem is this?  Why is that very complex and hard to solve? Is there any unsolved problem about a  cube?  117 The smallest Euler brick, discovered by Paul Halcke in 1719, has  edges ( a , b , c ) = (44, 117, 240) and face diagonals (125, 244, 267)"
+169,pdfs\Lecture 2_2019.pdf, A perfect cuboid  (also called a perfect box) is an Euler brick whose space  diagonal also has integer length
+170,pdfs\Lecture 2_2019.pdf," Is there any unsolved problem related  to a sphere?  118 Unequal sphere packing Is there any unsolved problem related  to a polygon?  119 The Polygonal Illumination Problem  Given a polygon S constructed with mirrors as  sides, and given a point P in the interior of S,  we can ask  if the inside of S  will be completely  illuminated by a  light source at P? The Polygonal Illumination Problem (Cont"
+171,pdfs\Lecture 2_2019.pdf,")  For every S and P, the answer is yes"
+172,pdfs\Lecture 2_2019.pdf,"  No counterexample is known, but no one has a proof"
+173,pdfs\Lecture 2_2019.pdf,  Even this easier problem is open: Does every polygon S  have any point P where a light source would illuminate  the interior? Pentagonal Tiling (open problem) 122 Bonus Activity   Report three unsolved problems in your major 123  multiplication  124  multiplication (Cont
+174,pdfs\Lecture 2_2019.pdf,)  125  multiplication (Cont
+175,pdfs\Lecture 2_2019.pdf,") 126 For n=100,000 (100000^3)/(100000^2"
+176,pdfs\Lecture 2_2019.pdf,81) = 8
+177,pdfs\Lecture 2_2019.pdf,"9125 times faster Oh, Seunghyun, and Byung - Ro Moon"
+178,pdfs\Lecture 2_2019.pdf," ""Automatic reproduction of a genius  algorithm: Strassen's algorithm revisited by genetic search"
+179,pdfs\Lecture 2_2019.pdf,""" IEEE Transactions  on Evolutionary Computation 14"
+180,pdfs\Lecture 2_2019.pdf,2 (2010): 246 - 251
+181,pdfs\Lecture 2_2019.pdf,"   mathematician, announced a clever algorithm to reduce  the asymptotic complexity of n*n matrix multiplication  from the order of  n^3 to n^2"
+182,pdfs\Lecture 2_2019.pdf,81 
+183,pdfs\Lecture 2_2019.pdf, It soon became one of the  most famous scientific discoveries in the 20th century  and provoked numerous studies by other mathematicians   and people are still curious  how Strassen developed his algorithm  we found  608 algorithms that have the same quality as  Strassen's  127 BQ: How can we model the  previous problem as an  optimization problem? 128 

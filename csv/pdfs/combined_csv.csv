@@ -39,3 +39,339 @@
 19,pdfs\2.pdf, One could argue that creating a component diagram for the Cash Register system is a bit pre -mature an d as such  a UML Package diagram is  more suitable
 20,pdfs\2.pdf,  Use the knowledge  acquired  from question 2 to create a UML Package  representation  of  the Cash Register system and  perceived  dependencies
 21,pdfs\2.pdf,    
+0,pdfs\1.pdf,Previous work   The first protocol which dealt with the cluster based wireless sensor network was the leach protocol
+1,pdfs\1.pdf,  The [leach] approach makes the communication in a wireless sensor network energy efficient by  involving the concept of threshold value  which is used to elect the cluster heads as per the number of  rounds
+2,pdfs\1.pdf, The approach includes measuring the amount of residual energy in the nodes which will help  them to elect and re - elect the cluster heads
+3,pdfs\1.pdf, The paper [cmpr] discusses about the centralized  clustering   approach to  provide the base station with most of the responsibilities which helps in  lower  the  energy consumption   by decreasing the latency and increasing throughput
+4,pdfs\1.pdf, T he base station  generates the neighbour and  then elects the cluster heads an d forms the clusters as well
+5,pdfs\1.pdf," As per any  network failure ,   the base station   is responsible to provide multiple paths which can be followed in  case of a failure which makes it more reliable than the previous approaches"
+6,pdfs\1.pdf,   The paper [ sdn wsn survey ] proposes a   design of SDWS N  which  consists of sensor nodes i n data plane  and SDN controller   in the control plane
+7,pdfs\1.pdf," Sensor nodes in data plane communicate wirelessly with each  other, and  can perform   data aggregation and fusion before communicating to utilize less energ y,  besides maintaining flow tables"
+8,pdfs\1.pdf, The control plane devices are serially connected to the sensor nodes    
+9,pdfs\1.pdf,  The contro l plane is logically centralized  instead of physically centralized
+10,pdfs\1.pdf,     The paper  [ 1 ]   talks about the  proposed routing protocol by having the SDN layer in the application  and having the context and policy based routing approach 
+11,pdfs\1.pdf," The protocol consists of 5 p hases, initiation  phase, topology discovery phase, decision phase, policy based routing phase and enforcement phase"
+12,pdfs\1.pdf,  The scenario talks about having the control plane dealing with all the routing policies and the data  plane being the area where all the pol icies are implemented
+13,pdfs\1.pdf," This lack a real life implementation and  the knowledge about the latency, packet delivery and quality of service"
+14,pdfs\1.pdf,   Fig
+15,pdfs\1.pdf,1
+16,pdfs\1.pdf, shows a model scenario  of the proposed model
+17,pdfs\1.pdf,           
+0,pdfs\2.pdf,Activity:  Ar chi tecture Modeling  Importance   Understanding models and views that can capture an architecture is very  important  in software  architecture design
+1,pdfs\2.pdf, Model views have to also be consistent among the different views
+2,pdfs\2.pdf,   Learning Objectives    To  understand about common notations use d for architectural modeling that include the UML  and box and line drawings
+3,pdfs\2.pdf,   To understand how  architectural  views  are related to each other
+4,pdfs\2.pdf,  Success Criteria    To be able to  create both UML and natural  language  descriptions for some simple  architectures 
+5,pdfs\2.pdf, Resources    Course notes on  Software Architectural models   Online resources on UML package diagrams such as  o https://www
+6,pdfs\2.pdf,visual -paradigm
+7,pdfs\2.pdf,com/guide/uml -unified -modeling -language/what -is-package -diagram/  Exercise s Below is a sequence diagram of an Actuator -Sensor pattern realization for a SafeHome  application that controls the positioning of a security camera
+8,pdfs\2.pdf,   1
+9,pdfs\2.pdf," From this diagram it is possible to define a compatible component diagram, i"
+10,pdfs\2.pdf,e
+11,pdfs\2.pdf, the  components are the ent ities in the sequence diagram and messages must be sent via  interfaces
+12,pdfs\2.pdf, Draw  a component diagram that has a consistent view with the sequence diag ram
+13,pdfs\2.pdf,    2
+14,pdfs\2.pdf, Read through the cash register requirements  posted  in Bl ackboard with this exercise and  using the n atural language notation write  descriptions of the components  envisioned in this  system
+15,pdfs\2.pdf,  Note:  Components are similar to Classes  except that they may  consist of several  classes interacting through a common Interface
+16,pdfs\2.pdf," As such  you can leverage t he noun -phrases  procedure typically used to extract Classes from a text ual  description of  a scenario,  where  nouns are u sed to define Classes"
+17,pdfs\2.pdf, In a simila r fashion verbs in scenarios can help identify  communication  between components
+18,pdfs\2.pdf,  3
+19,pdfs\2.pdf, One could argue that creating a component diagram for the Cash Register system is a bit pre -mature an d as such  a UML Package diagram is  more suitable
+20,pdfs\2.pdf,  Use the knowledge  acquired  from question 2 to create a UML Package  representation  of  the Cash Register system and  perceived  dependencies
+21,pdfs\2.pdf,    
+0,pdfs\1.pdf,Previous work   The first protocol which dealt with the cluster based wireless sensor network was the leach protocol
+1,pdfs\1.pdf,  The [leach] approach makes the communication in a wireless sensor network energy efficient by  involving the concept of threshold value  which is used to elect the cluster heads as per the number of  rounds
+2,pdfs\1.pdf, The approach includes measuring the amount of residual energy in the nodes which will help  them to elect and re - elect the cluster heads
+3,pdfs\1.pdf, The paper [cmpr] discusses about the centralized  clustering   approach to  provide the base station with most of the responsibilities which helps in  lower  the  energy consumption   by decreasing the latency and increasing throughput
+4,pdfs\1.pdf, T he base station  generates the neighbour and  then elects the cluster heads an d forms the clusters as well
+5,pdfs\1.pdf," As per any  network failure ,   the base station   is responsible to provide multiple paths which can be followed in  case of a failure which makes it more reliable than the previous approaches"
+6,pdfs\1.pdf,   The paper [ sdn wsn survey ] proposes a   design of SDWS N  which  consists of sensor nodes i n data plane  and SDN controller   in the control plane
+7,pdfs\1.pdf," Sensor nodes in data plane communicate wirelessly with each  other, and  can perform   data aggregation and fusion before communicating to utilize less energ y,  besides maintaining flow tables"
+8,pdfs\1.pdf, The control plane devices are serially connected to the sensor nodes    
+9,pdfs\1.pdf,  The contro l plane is logically centralized  instead of physically centralized
+10,pdfs\1.pdf,     The paper  [ 1 ]   talks about the  proposed routing protocol by having the SDN layer in the application  and having the context and policy based routing approach 
+11,pdfs\1.pdf," The protocol consists of 5 p hases, initiation  phase, topology discovery phase, decision phase, policy based routing phase and enforcement phase"
+12,pdfs\1.pdf,  The scenario talks about having the control plane dealing with all the routing policies and the data  plane being the area where all the pol icies are implemented
+13,pdfs\1.pdf," This lack a real life implementation and  the knowledge about the latency, packet delivery and quality of service"
+14,pdfs\1.pdf,   Fig
+15,pdfs\1.pdf,1
+16,pdfs\1.pdf, shows a model scenario  of the proposed model
+17,pdfs\1.pdf,           
+0,pdfs\2.pdf,Activity:  Ar chi tecture Modeling  Importance   Understanding models and views that can capture an architecture is very  important  in software  architecture design
+1,pdfs\2.pdf, Model views have to also be consistent among the different views
+2,pdfs\2.pdf,   Learning Objectives    To  understand about common notations use d for architectural modeling that include the UML  and box and line drawings
+3,pdfs\2.pdf,   To understand how  architectural  views  are related to each other
+4,pdfs\2.pdf,  Success Criteria    To be able to  create both UML and natural  language  descriptions for some simple  architectures 
+5,pdfs\2.pdf, Resources    Course notes on  Software Architectural models   Online resources on UML package diagrams such as  o https://www
+6,pdfs\2.pdf,visual -paradigm
+7,pdfs\2.pdf,com/guide/uml -unified -modeling -language/what -is-package -diagram/  Exercise s Below is a sequence diagram of an Actuator -Sensor pattern realization for a SafeHome  application that controls the positioning of a security camera
+8,pdfs\2.pdf,   1
+9,pdfs\2.pdf," From this diagram it is possible to define a compatible component diagram, i"
+10,pdfs\2.pdf,e
+11,pdfs\2.pdf, the  components are the ent ities in the sequence diagram and messages must be sent via  interfaces
+12,pdfs\2.pdf, Draw  a component diagram that has a consistent view with the sequence diag ram
+13,pdfs\2.pdf,    2
+14,pdfs\2.pdf, Read through the cash register requirements  posted  in Bl ackboard with this exercise and  using the n atural language notation write  descriptions of the components  envisioned in this  system
+15,pdfs\2.pdf,  Note:  Components are similar to Classes  except that they may  consist of several  classes interacting through a common Interface
+16,pdfs\2.pdf," As such  you can leverage t he noun -phrases  procedure typically used to extract Classes from a text ual  description of  a scenario,  where  nouns are u sed to define Classes"
+17,pdfs\2.pdf, In a simila r fashion verbs in scenarios can help identify  communication  between components
+18,pdfs\2.pdf,  3
+19,pdfs\2.pdf, One could argue that creating a component diagram for the Cash Register system is a bit pre -mature an d as such  a UML Package diagram is  more suitable
+20,pdfs\2.pdf,  Use the knowledge  acquired  from question 2 to create a UML Package  representation  of  the Cash Register system and  perceived  dependencies
+21,pdfs\2.pdf,    
+0,pdfs\Lecture 1_2019.pdf,"Lecture 1 Shahryar Rahnamayan, PhD, PEng, SMIEEE Department Chair and Associate Professor  SIRC 3330 11:10 AM  - 2:00 PM  Fri"
+1,pdfs\Lecture 1_2019.pdf,", Sept"
+2,pdfs\Lecture 1_2019.pdf," 6, 2019 1 About the course instructor    B"
+3,pdfs\Lecture 1_2019.pdf,Sc
+4,pdfs\Lecture 1_2019.pdf,  (First Class Honour): Software Eng
+5,pdfs\Lecture 1_2019.pdf, (1994 - 1998)  M
+6,pdfs\Lecture 1_2019.pdf,Sc
+7,pdfs\Lecture 1_2019.pdf,  (First Class Honour): Software Eng
+8,pdfs\Lecture 1_2019.pdf, (1999 - 2001)  PhD (Nominated to PhD Alumni Gold Medal): Systems Design Eng
+9,pdfs\Lecture 1_2019.pdf,",  University of Waterloo (2003 - 2007)   CIHR Training Fellow:  Medical Image Processing, Robarts Research Center  (2002 - 2004)  Postdoctoral Fellow:  Simon Fraser University (2008), Canada  Faculty member:  UOIT, Sept"
+10,pdfs\Lecture 1_2019.pdf," 2008  Registered Professional Engineer:  PEng (2009), ON, Canada  Visiting Researcher:  Michigan State University (2014 - 2016), BEACON  Research Center, MI, USA 2 About the course instructor (Cont"
+11,pdfs\Lecture 1_2019.pdf,")   Publications:  More than 170 papers (2005 - present)  The highest impact paper:  33 th (in term of number of citations) out of 254,000  papers published in IEEE with keyword of optimization (2008 - present)  [inspired more than 500 papers]  Awards:   recognitions)   Current positions:  Department Chair and Associate professor at UOIT,  Adjunct professor at University of Waterloo, Faculty member in BEACON,  Michigan State University (MSU)  Professional Memberships:  SMIEEE, PMACM, PEng, ASSE, COIN, INFORMS,  Mitacs, CEEA, CORS, reviewer for more than 35 journal papers  Research fields:  Evolutionary Computation, Machine Learning, Image  Processing, and Metaheuristics  Received  UOIT Research Excellence Award , 2017  Nominated by FEAS for the  UOIT Teaching Excellence Award , 2018 3 My research homes (2003 - present) 4 2003 - 2007 (PhD),  2009 - present (Adjunct)  2003 - 2005 (CIHR Strategic  Training Fellow) March - Aug"
+12,pdfs\Lecture 1_2019.pdf,", 2008 (PDF) 2008 - present (Faculty Member)  2014 - 2016 (Visiting Researcher)  2014 - present (Faculty member)  May 2007 - Feb"
+13,pdfs\Lecture 1_2019.pdf, 2008  Researcher  2009 - 2014 (Adjunct)  1999 - 2001 (MSc)  Let me say first!  approaches  to zero fast when we talk about my expertise
+14,pdfs\Lecture 1_2019.pdf,"  5 Summary of Course Outline  6 7 Course Expectations  (completing a comprehensive chain)   Understanding of the given problem  Converting it to an optimization problem  Finding out the type of the problem to solve  Utilizing/designing the algorithm to solve the problem  Implementing the problem and algorithm  Reporting and comparison of the results  Visualization of the optimization process and  solution(s)  Results analysis  Technical reporting as a paper  8 9 10 11 12 Course Project   Please start to work on it ASAP  First consult with your supervisor(s)   Find/define a complex optimization problem in your  research direction  Try to make your course project a chapter of your thesis  and/or a paper  13 14 15 16 Asking for recommendation letter  17 To the best of my knowledge,  this course is the most  productive course at UOIT in  term of resulted published  papers   18 What is Optimization?  An act, process, or methodology of making something (as a design, system, or decision) as fully perfect, functional, or effective as possible "
+15,pdfs\Lecture 1_2019.pdf," Merriam - Webster Online Dictionary 19 Examples for Optimization  Maximization of performance, accuracy, efficiency,    Minimization of development/maintenance cost,  manufacturing cost, risk factor, error rate, wasting  energy, utilized materials, negative environmental   20 21 1"
+16,pdfs\Lecture 1_2019.pdf,"4M Published papers  (Web of Science, 1952 - present)   Optimization in the  history  An Optimization Problem  Given: a function  f :  A  R from some set  A to the real numbers  Looking for: an element  x 0 in  A such that  f ( x 0  f ( x ) for all  x in  A ("" minimization "") or such that  f ( x 0  f ( x ) for all  x in  A ("" maximization "")"
+17,pdfs\Lecture 1_2019.pdf,  22 23 Horse Racing The slowest horse is the  winner!  Q
+18,pdfs\Lecture 1_2019.pdf," How can you run this  competition? 24 Horse Racing By Switching the horses to  convert a minimization  problem to the  maximization one! A formal definition of a continuous optimization  problem   25 Let us first make our simple  intuitive mini - dictionary  about type of optimization problems  1) Objective function 2) Mathematical/Simulator/Experimental  3) Minimization/maximization 4) Dimension 5) Large - scale  6) Landscape  7) Discrete/continuous/mixed - type  8) Unimodal/multi - modal 9) One solution/many solutions 10) With know/ unknown solution 11) Design/control 12) Exact/approximate solution 13) Single/multi/many objectives 26 14) Black - box/grey - box  problem 15) Constraint , box - constraint  16) Static/Dynamic  17) Noisy 18) Single - or Multi - level 19) Deceptive  20) Combinatorial  21) Expensive  22) Variable dimension size  23) Linear/nonlinear 24) Convex/concave 25) Interactive  (single - or multi   objective) 26) Separable/non separable    Where is the home of optimization? Artificial  intelligence Soft  computing Operations  research Computational  intelligence Mathematical  programming  Optimization  Introduction  Machine  Learning Research and Optimization  28 Research in  Optimization  Optimization in Research  Improving  optimization  algorithms Solving real - world  optimization problems  using existence algorithms Tailoring optimization algorithm  to solve specific real - world problems Theory and Practice! 29 Theory is when one knows  everything but nothing  works"
+19,pdfs\Lecture 1_2019.pdf,  Practice is when  everything works but  nobody knows why
+20,pdfs\Lecture 1_2019.pdf,"  If theory and practice go hand  in hand: nothing works and  nobody knows why! A joke, but can happen! A simple optimization problem (Application of  the Derivative) 30 https://www"
+21,pdfs\Lecture 1_2019.pdf,whitman
+22,pdfs\Lecture 1_2019.pdf,edu/mathematics/calculus/calculus_06_Applications_of_the_Derivative
+23,pdfs\Lecture 1_2019.pdf,pdf A simple optimization problem (Application of  the Derivative)[Cont
+24,pdfs\Lecture 1_2019.pdf,] 31 https://www
+25,pdfs\Lecture 1_2019.pdf,whitman
+26,pdfs\Lecture 1_2019.pdf,edu/mathematics/calculus/calculus_06_Applications_of_the_Derivative
+27,pdfs\Lecture 1_2019.pdf,pdf A simple optimization problem (Application of  the Derivative)[Cont
+28,pdfs\Lecture 1_2019.pdf,] 32 https://www
+29,pdfs\Lecture 1_2019.pdf,whitman
+30,pdfs\Lecture 1_2019.pdf,edu/mathematics/calculus/calculus_06_Applications_of_the_Derivative
+31,pdfs\Lecture 1_2019.pdf,pdf 33 Demonstration: Benchmark Function   34 Analytical Vs
+32,pdfs\Lecture 1_2019.pdf, Algorithmic Optimization   35  Type 1:  Problems with known global solution(s)  Type 2:  Problems with best known solution(s)   Type 3:  Problems with unknown solution but with known  optimal value for objective function  Type 4:  Problems with unknown solution and unknown  optimal value for objective function  Type 5 : Problem with no objective function! Five types of problems to solve  36 Name a science or engineering field  with no fingerprint of  optimization there?  Applications of Optimization   Countless  Many challenging applications in science and industry  can be formulated as optimization problems
+33,pdfs\Lecture 1_2019.pdf,"  Minimization of time, cost, and risk   Maximization of profit, quality, and efficiency 37 Applications I  Mobile communications infrastructure optimization  Composite material design and multi - objective design of  automotive components, weight savings, and other  characteristics  Molecular Structure Optimization  Learning Robot behavior  Designing of water and electricity distributions   RNA structure prediction  Solving the machine - component grouping problem  required for cellular manufacturing systems  Automated drug design  38 Applications II  Designing data compression systems  Job - shop scheduling  Finding hardware bugs  Wireless Sensor/Ad - hoc Networks  Proposing economic models  Linguistic analysis, including Grammar Induction and  other aspects of Natural Language Processing  Designing of sophisticated trading systems in the  financial sector   Designing heat transfer systems 39 Applications III  Medical image processing  Aircraft Design  VLSI and electronic circuit design  Marketing mix Analysis   Designing healthcare systems  Mathematical modeling for biological systems  Non - conflicting class/exam timetabling for universities  Data Mining  Assembly line design  Architectural design  Art and music design   "
+34,pdfs\Lecture 1_2019.pdf,
+35,pdfs\Lecture 1_2019.pdf,
+36,pdfs\Lecture 1_2019.pdf,
+37,pdfs\Lecture 1_2019.pdf,
+38,pdfs\Lecture 1_2019.pdf,
+39,pdfs\Lecture 1_2019.pdf,
+40,pdfs\Lecture 1_2019.pdf,
+41,pdfs\Lecture 1_2019.pdf,
+42,pdfs\Lecture 1_2019.pdf,
+43,pdfs\Lecture 1_2019.pdf," (open - ended)  40 Our Some Sample  Application - oriented  Contributions (helpful to get an idea  about your course project) 41 Class activity (time: 3 mins)  Find a journal paper in your field (or any field which  you are interested in) which has utilized an  optimization method to solve a problem? 42 Optimal Parameter Setting of Active - Contours Using  Differential Evolution and Expert - Segmented Sample  Image 44 Optimal Design Methods for Hybrid Renewable Energy  Systems 44 45 Segasist can auto - contour lesions/organs  in any modality (CT, MR, Ultrasound etc"
+44,pdfs\Lecture 1_2019.pdf,")  Current Products:  Prostate CT, Prostate MRI, Prostate  Ultrasound, Breast MRI  Under Development:  Lung CT, Liver CT, Thyroid  Ultrasound, Cardiac MRI Auto - Contouring of Multiple Regions in Medical  Images: Segasist's Fast Multi - Contouring 46 - Raised almost $2  million  - Developed two   software packages:  Prostate Auto - Contouring, and Brain  Cancer Contouring in  MRI images - Filed 4 patents (two  granted, two pending) - Received FDA  clearance for the  prostate software - Sold licenses to  multiple hospitals Optimal Projection Selection For Radon Barcodes 47 Optimal Projection Selection For Radon  Barcodes (Cont"
+45,pdfs\Lecture 1_2019.pdf,") 48 Test set: 12,000 medical images (ten types),  success rate: 83% Color Separation in Forensic Image Processing Using  Interactive Differential Evolution 49 Mushtaq, Harris, Shahryar Rahnamayan,  and Areeb Siddiqi"
+46,pdfs\Lecture 1_2019.pdf," ""Color Separation in  Forensic Image Processing Using  Interactive Differential Evolution"
+47,pdfs\Lecture 1_2019.pdf,""" Journal  of forensic sciences 60"
+48,pdfs\Lecture 1_2019.pdf,1 (2015): 212 - 218
+49,pdfs\Lecture 1_2019.pdf," Invited Speaker in the 73 rd Annual General Meeting  of the American Society of  Questioned Document  Examiners, Aug"
+50,pdfs\Lecture 1_2019.pdf," 2015 Forensic Science, Interactive Optimization  Eye Illusion Enhancement Using Interactive Differential Evolution 50 Art Science, Interactive Optimization  Eye Illusion Enhancement Using Interactive  Differential Evolution 51 Art Science, Interactive Optimization  Multi - objective thermal analysis of a  thermoelectric device: Influence of geometric  features on device characteristics 52 Ibrahim, Amin, et al"
+51,pdfs\Lecture 1_2019.pdf," ""Multi - objective thermal analysis of a thermoelectric  device: Influence of geometric features on device characteristics"
+52,pdfs\Lecture 1_2019.pdf,""" Energy  77 (2014): 305 - 317"
+53,pdfs\Lecture 1_2019.pdf," Energy, Multi - objective Optimization and Genetic Programming  Exergetic Optimization of Two Renewable Energy Based Tri - generation Systems 53 Energy, Single - objective Constraint Optimization Optimal Design of an Air - Cooling System for a Li - Ion  Battery Pack in Electric Vehicles 54 Vibration Analysis and Multi - objective  Optimization of Stiffened Triangular Plate 55 Vibration, Multi - objective Optimization 3D Localization in Large - Scale Wireless Sensor Networks: A Micro - Differential Evolution Approach 56 Wireless Network, Micro Single - objective Optimization 3D Localization in Large - Scale Wireless Sensor Networks: A Micro - Differential Evolution Approach (Cont"
+54,pdfs\Lecture 1_2019.pdf,") 57 Wireless Network, Micro Single - objective Optimization Optimal Photovoltaic System Design with Multi - objective Optimization 58 Energy, Multi - objective Optimization Bitcoin Price Prediction Using  Offline and Online Innovization 59 Big Data Analytics, Machine Learning and Innovization  Fuzzy Adaptive Cruise Control System with Speed Sign  Detection Capability 60 Control and Machine Vision, Hybrid System  (Ranked first in the capstone competition, 2013) Fuzzy Adaptive Cruise Control System with Speed  Sign Detection Capability (Cont"
+55,pdfs\Lecture 1_2019.pdf,") 61 (Ranked first in the capstone competition, 2013) Control and Machine Vision, Hybrid System  Camera - based Automated Highway (i"
+56,pdfs\Lecture 1_2019.pdf,e
+57,pdfs\Lecture 1_2019.pdf,", 401)  Monitoring System 62 (Ranked first in the capstone competition, 2014) Machine Vision An Optimization Problem in Art!  63 Could you paint a replica of the  Mona Lisa using only 255 semi  transparent polygons? How many digits is 255! ? 64 Intermediate results 65 Intermediate results, Cont"
+58,pdfs\Lecture 1_2019.pdf,"  66 Intermediate results, Cont"
+59,pdfs\Lecture 1_2019.pdf,"  67 Intermediate results, Cont"
+60,pdfs\Lecture 1_2019.pdf,"  68 Intermediate results, Cont"
+61,pdfs\Lecture 1_2019.pdf,  Running time: ~12 days  # polygons: 255 # points: 1668 points/polygon: 6 69 Bonus Q
+62,pdfs\Lecture 1_2019.pdf,  What is the  dimensionality of this  optimization problem? Dimensionality of Problem? 70 A)  D<50 B)  50<D<100 C)  100<D<500 D)  500<D<1000 E)  1000<D<2000 F)  D>4000 Let us run the code  71 Why do we need to design efficient  optimization algorithms? 72 72 Example: speed comparison of two Computers   73 Computer A (1000 times faster than  computer B)  Computer B (Slower computer) n= 10^8 n= 10^8 10 billion instruction/second  10 million instruction per  second Algorithm A:  2*n^2 instructions Algorithm B:  50*n* lgn instructions Running time:? Running time:? 73 Example: speed comparison of two Computers (Cont
+63,pdfs\Lecture 1_2019.pdf,")   74 Computer A (1000 times faster than  computer B)  Computer B (Slower computer) n= 10^8 n= 10^8 10 billion instruction/second  10 million instruction per  second Algorithm A:  2*n^2 instructions Algorithm B:  50*n* lgn instructions Running time: more than 23  days  Running time: less than 4  hours, 138 times faster 74 Why complexity of an optimization algorithm is a  very important factor? 75 Utilizing 512 CPU"
+64,pdfs\Lecture 1_2019.pdf,"s can reduce optimization time from  two years  to  two days ! Thanks to Sharcnet with more than 20,000 CPU"
+65,pdfs\Lecture 1_2019.pdf,"s, for free:    https://www"
+66,pdfs\Lecture 1_2019.pdf,sharcnet
+67,pdfs\Lecture 1_2019.pdf,"ca/my/front/ Introduction  Problem landscape  76 Landscape and Modality of a Problem  Unimodal  Multimodal with a few local optima   Multimodal with many local optima Generally, higher modality problems are harder to  solve"
+68,pdfs\Lecture 1_2019.pdf," Because, the optimizer is prone to trap in a local  optimum (i"
+69,pdfs\Lecture 1_2019.pdf,e
+70,pdfs\Lecture 1_2019.pdf,", premature convergence)"
+71,pdfs\Lecture 1_2019.pdf,  77 Sample  Benchmark  Functions 78 79 80 81 82 83 84 85 Complex Benchmark Problems (2D)  86 
+0,pdfs\Lecture 2_2019.pdf,"Lecture 2 Shahryar Rahnamayan, PhD, PEng, SMIEEE Department Chair and Associate Professor  SIRC 3330 11:10 AM  - 2:00 PM  Fri"
+1,pdfs\Lecture 2_2019.pdf,", Sept"
+2,pdfs\Lecture 2_2019.pdf," 13, 2019 1 2 A sample  real - world benchmark  problem  Why do we use benchmark  functions?  3 Gaussians Landscape Generator 4 http://itee"
+3,pdfs\Lecture 2_2019.pdf,uq
+4,pdfs\Lecture 2_2019.pdf,edu
+5,pdfs\Lecture 2_2019.pdf,au/~marcusg/msg
+6,pdfs\Lecture 2_2019.pdf,html 5 http://itee
+7,pdfs\Lecture 2_2019.pdf,uq
+8,pdfs\Lecture 2_2019.pdf,edu
+9,pdfs\Lecture 2_2019.pdf,au/~marcusg/msg
+10,pdfs\Lecture 2_2019.pdf,html 6 http://itee
+11,pdfs\Lecture 2_2019.pdf,uq
+12,pdfs\Lecture 2_2019.pdf,edu
+13,pdfs\Lecture 2_2019.pdf,au/~marcusg/msg
+14,pdfs\Lecture 2_2019.pdf,html Landscape generators  Vs
+15,pdfs\Lecture 2_2019.pdf,"  Benchmark functions  7 Assignment One   8 9 Implementation Assignment (1):  Implementing  in Matlab, and plotting 3D map 10 11 12 13 14  15 Optimization Methods Classifications  16 [Feoktistov 2006] 17 Classical optimization models 18 Non - linear  and non - convex? Optimization Methods   Exact Methods:  Guarantees the optimality  Approximate Methods:   but they give a boundary estimation (closeness to the  optimal solution)  Metaheuristics :    with not a boundary estimation  19 Metaheuristics   Origin in the old Greek word  heuriskein , which means the art of discovering new strategies (rules) to solve  problems"
+16,pdfs\Lecture 2_2019.pdf," The suffix  meta , also  a Greek word, means    Metaheuristic search methods can be defined as upper  level general methodologies (templates) that can be  used as guiding strategies in designing underlying  heuristics to solve specific optimization problems"
+17,pdfs\Lecture 2_2019.pdf, 20 Optimization Procedure 21 1 2 3 Formulate the problem  A decision problem is identified
+18,pdfs\Lecture 2_2019.pdf,   An initial statement of the problem is made
+19,pdfs\Lecture 2_2019.pdf,   This formulation may be imprecise
+20,pdfs\Lecture 2_2019.pdf,  The internal and external factors and the objective(s) of  the problem are outlined
+21,pdfs\Lecture 2_2019.pdf,  Many decision makers may be involved in formulating the  problem
+22,pdfs\Lecture 2_2019.pdf," 22 Model the problem  In this important step, an abstract mathematical model is  built for the problem (if possible)"
+23,pdfs\Lecture 2_2019.pdf,   The modeler can be inspired by similar models in the      literature
+24,pdfs\Lecture 2_2019.pdf, This will reduce the problem to well - studied  optimization models
+25,pdfs\Lecture 2_2019.pdf,"  Usually, models we are solving are simplifications of the  reality"
+26,pdfs\Lecture 2_2019.pdf, They involve approximations and sometimes they  skip processes that are complex to represent in a  mathematical model (see next slide)
+27,pdfs\Lecture 2_2019.pdf, 23 Assignments two   24 25 BQ
+28,pdfs\Lecture 2_2019.pdf, A highly critical question: Exact solution for  approximate model or  approximate solution  for  exact  model?  26 NFL: No free lunch theorem  algorithms are equivalent when  their performance is averaged across all possible   Wolpert and W
+29,pdfs\Lecture 2_2019.pdf," Macready, 1997 27 NFL and Optimal Mapping Challenge 28 Optimal  Mapping Type of Problem  Single/multi Objective   Uni - /multi Modal  Noisy/Noise - free  Large - Scale  Expensive  Dynamic   Type of Algorithm  Classical methods   GA  PSO  DE   Goal  Find first solution fast  Find more solutions  Find robust solution   Different Problem Complexities 29 Prof"
+30,pdfs\Lecture 2_2019.pdf," K Deb course notes, ECE802 - 603: Evolutionary Multi - Criterion Opt"
+31,pdfs\Lecture 2_2019.pdf," and Decision Making, ECE, MSU, USA 30 Nature Inspired Intelligent Techniques for  Problem Solving  31 Nanoshapes obtained using the DNA origami DNA - based circuits Digital Evolution  Partial Swarm Intelligence  Artificial Neural Networks (ANN)  Robotic Design  Reinforcement Learning (RL)   Let us consider a population of rabbits"
+32,pdfs\Lecture 2_2019.pdf," Some                             rabbits are faster than others, and we may say that                           these rabbits possess superior fitness, because they                               have a greater chance of avoiding foxes, surviving                             and then breeding"
+33,pdfs\Lecture 2_2019.pdf,"  If two parents have superior fitness, there is a good                         chance that a combination of their genes will                                     produce an offspring with even higher fitness"
+34,pdfs\Lecture 2_2019.pdf,                                      Over time the entire population of rabbits becomes                                    faster to meet their environmental challenges in the                           face of foxes
+35,pdfs\Lecture 2_2019.pdf," How is a population with increasing                                           fitness generated? 32 Simulation of natural evolution  All methods of evolutionary computation  simulate natural evolution by creating a  population of individuals, evaluating their  fitness, generating a new population through  genetic operations, and repeating this  process a number of times"
+36,pdfs\Lecture 2_2019.pdf,  We will start with Genetic Algorithms (GAs)  as most of the other evolutionary algorithms  can be viewed as variations of genetic  algorithms
+37,pdfs\Lecture 2_2019.pdf, 33 Can evolution be intelligent?  Intelligence can be defined as the capability of a            system to adapt its behavior to ever - changing                                environment
+38,pdfs\Lecture 2_2019.pdf," According to Alan Turing, the form                              or appearance of a system is irrelevant to its               intelligence"
+39,pdfs\Lecture 2_2019.pdf,  Evolutionary computation simulates evolution on a  computer
+40,pdfs\Lecture 2_2019.pdf," The result of such a simulation is a                                     series of optimization algorithms, usually based on                           a simple set of rules"
+41,pdfs\Lecture 2_2019.pdf," Optimization iteratively                         improves the quality of solutions until an optimal, or  at least feasible, solution is found"
+42,pdfs\Lecture 2_2019.pdf, 34  The evolutionary approach is based on                              computational models of natural selection and                                genetics
+43,pdfs\Lecture 2_2019.pdf," We call them evolutionary                                         computation, an umbrella term that combines                        genetic algorithms, evolution strategies and                        genetic programming"
+44,pdfs\Lecture 2_2019.pdf," 35 Simulation of natural evolution  In July 1, 1858, Charles Darwin presented his              theory of evolution"
+45,pdfs\Lecture 2_2019.pdf,  This day marks the  beginning of a revolution in biology
+46,pdfs\Lecture 2_2019.pdf,     now represent the neo - Darwinian paradigm
+47,pdfs\Lecture 2_2019.pdf," 36  Neo - Darwinism is based on processes of          reproduction, mutation, competition and  selection"
+48,pdfs\Lecture 2_2019.pdf, The power to reproduce appears to  be an essential property of life
+49,pdfs\Lecture 2_2019.pdf, The power to  mutate is also guaranteed in any living  organism that reproduces itself in a  continuously changing environment
+50,pdfs\Lecture 2_2019.pdf,"             Processes of competition and selection  normally take place in the natural world,  where expanding   populations of different  species are limited by a finite space"
+51,pdfs\Lecture 2_2019.pdf, 37  Evolution can be seen as a process leading to   survive and reproduce in a specific  environment
+52,pdfs\Lecture 2_2019.pdf, This ability is called evolutionary  fitness
+53,pdfs\Lecture 2_2019.pdf,  Evolutionary fitness can also be viewed as a                             changes in its environment
+54,pdfs\Lecture 2_2019.pdf,"  The fitness, or the quantitative measure of the                         ability to predict environmental changes and                            respond adequately, can be considered as the                              quality that is optimized in natural life"
+55,pdfs\Lecture 2_2019.pdf, 38  Genetic Algorithm (GA) [2:56] 39 Prof
+56,pdfs\Lecture 2_2019.pdf," Richard  Lenski  Experimental Evolution 40 Genetic Algorithms  In the early 1970s, John Holland introduced  the concept of genetic algorithms"
+57,pdfs\Lecture 2_2019.pdf,  His aim was to make computers do what  nature does
+58,pdfs\Lecture 2_2019.pdf, Holland was concerned with  algorithms that manipulate strings of binary  digits
+59,pdfs\Lecture 2_2019.pdf,    represented by 0 or 1: 41  Nature has an ability to adapt and learn without  being told what to do
+60,pdfs\Lecture 2_2019.pdf," In other words, nature  finds good chromosomes blindly"
+61,pdfs\Lecture 2_2019.pdf, GAs do the  same
+62,pdfs\Lecture 2_2019.pdf, Two mechanisms link a GA to the  problem it is solving: encoding and evaluation
+63,pdfs\Lecture 2_2019.pdf,  The GA uses a measure of fitness of individual  chromosomes to carry out reproduction
+64,pdfs\Lecture 2_2019.pdf," As  reproduction takes place, the crossover  operator exchanges parts of two single  chromosomes, and the mutation operator  changes the gene value in some randomly  chosen location of the chromosome"
+65,pdfs\Lecture 2_2019.pdf," 42 Basic genetic algorithms Step 1:   Represent the problem variable domain  as a chromosome of a fixed length, choose  the size of a chromosome population  N , the  crossover probability  p c and the mutation  probability  p m "
+66,pdfs\Lecture 2_2019.pdf," Step 2:   Define a fitness function to measure the  performance, or fitness, of an individual                chromosome in the problem domain"
+67,pdfs\Lecture 2_2019.pdf, The  fitness function establishes the basis for  selecting chromosomes that will be mated  during reproduction
+68,pdfs\Lecture 2_2019.pdf,"  43 Step 3:  Randomly generate an initial population  of chromosomes of size  N :                                                      x 1 ,  x 2 , "
+69,pdfs\Lecture 2_2019.pdf, 
+70,pdfs\Lecture 2_2019.pdf, 
+71,pdfs\Lecture 2_2019.pdf," ,  x N Step 4:  Calculate the fitness of each individual                                chromosome:                                                                                                    f  ( x 1 ),  f  ( x 2 ), "
+72,pdfs\Lecture 2_2019.pdf, 
+73,pdfs\Lecture 2_2019.pdf, 
+74,pdfs\Lecture 2_2019.pdf," ,  f  ( x N ) Step 5:  Select a pair of chromosomes for mating                                    from the current population"
+75,pdfs\Lecture 2_2019.pdf, Parent                           chromosomes are selected with a probability                               related to their fitness
+76,pdfs\Lecture 2_2019.pdf, 44 Step 6:  Create a pair of offspring chromosomes  by applying the genetic operators  - crossover  and mutation
+77,pdfs\Lecture 2_2019.pdf, Step 7:  Place the created offspring  chromosomes in the new population
+78,pdfs\Lecture 2_2019.pdf," Step 8:  Repeat Step 5  until the size of the new                   chromosome population becomes equal to the                                    size of the initial population,  N "
+79,pdfs\Lecture 2_2019.pdf, Step 9:  Replace the initial (parent) chromosome                   population with the new (offspring) population
+80,pdfs\Lecture 2_2019.pdf," Step 10:  Go to  Step 4 , and repeat the process  until the termination criterion is satisfied"
+81,pdfs\Lecture 2_2019.pdf,  45 Genetic algorithms  GA represents an iterative process
+82,pdfs\Lecture 2_2019.pdf,  Each  iteration is called a generation
+83,pdfs\Lecture 2_2019.pdf,   A common practice is to terminate a GA after a  specified number of generations and then  examine the best chromosomes in the  population
+84,pdfs\Lecture 2_2019.pdf," If no satisfactory solution is found,  the GA is restarted"
+85,pdfs\Lecture 2_2019.pdf,"  Because GAs use a stochastic search method,  the fitness of a population may remain stable for  a number of generations before a superior  chromosome appears"
+86,pdfs\Lecture 2_2019.pdf, 46 47 Genetic algorithms  - evolution of a 2D car in Unity  [5:41] 48 AI Simulation of Fish Tank (Genetic  algorithm with Neural networks)[11:14] Genetic Algorithm (GA): Three case studies 49 Genetic algorithms: Case study I A simple example will help us to understand how             a GA works
+87,pdfs\Lecture 2_2019.pdf, Let us find the maximum value of             the function (15 x  - x 2 ) where parameter  x varies           between 0 and 15
+88,pdfs\Lecture 2_2019.pdf," For simplicity, we may               assume that  x  takes only integer values"
+89,pdfs\Lecture 2_2019.pdf," Thus,               chromosomes can be built with only four genes: 50 Suppose that the size of the chromosome  population  N is 6, the crossover probability  p c equals 0"
+90,pdfs\Lecture 2_2019.pdf,"7, and the mutation probability  p m equals 0"
+91,pdfs\Lecture 2_2019.pdf,001
+92,pdfs\Lecture 2_2019.pdf," The fitness function in our  example is defined by max f ( x ) =  15  x   x 2 51 The fitness function and chromosome locations 52  In natural selection, only the fittest species  can survive, breed, and thereby pass their  genes on to the next generation"
+93,pdfs\Lecture 2_2019.pdf," GAs use a  similar approach, but unlike nature, the size of  the population remains unchanged from one  generation to the next"
+94,pdfs\Lecture 2_2019.pdf,  The last column in the previous Table  shows the ratio of the individual   total fitness
+95,pdfs\Lecture 2_2019.pdf, This ratio determines the    improves from one generation to the next
+96,pdfs\Lecture 2_2019.pdf," 53 Roulette wheel selection 54 Crossover operator  In our example, we have an initial population of  6  chromosomes"
+97,pdfs\Lecture 2_2019.pdf," Thus, to establish the same                                      population in the next generation, the roulette                                         wheel would be spun six times"
+98,pdfs\Lecture 2_2019.pdf,"   Once a pair of parent chromosomes is  selected, the crossover operator is applied"
+99,pdfs\Lecture 2_2019.pdf," 55  First, the crossover operator randomly  chooses a crossover point where two parent   the chromosome parts after that point"
+100,pdfs\Lecture 2_2019.pdf," As a  result, two new offspring are created"
+101,pdfs\Lecture 2_2019.pdf,"  If a pair of chromosomes does not cross  over, then the chromosome cloning takes  place, and the offspring are created as exact  copies of each parent"
+102,pdfs\Lecture 2_2019.pdf, 56 Crossover 57 Mutation operator  Mutation represents a change in the gene
+103,pdfs\Lecture 2_2019.pdf,"  The mutation probability is quite small in  nature, and is kept low for GAs, typically in the  range between 0"
+104,pdfs\Lecture 2_2019.pdf,001 and 0
+105,pdfs\Lecture 2_2019.pdf,01
+106,pdfs\Lecture 2_2019.pdf,  The mutation operator flips a randomly  selected gene in a chromosome
+107,pdfs\Lecture 2_2019.pdf,  Mutation is a background operator
+108,pdfs\Lecture 2_2019.pdf, Its role  is to provide a guarantee that the search  algorithm is not trapped on a local optimum
+109,pdfs\Lecture 2_2019.pdf, 58 Mutation 59 The genetic algorithm cycle 60 Genetic algorithms: Case study II  Suppose it is desired to find the maximum of    The first step is to represent the problem  variables as a chromosome  - parameters  x  and  y  as a concatenated binary string: where parameters  x  and  y  vary between  - 3 and 3
+110,pdfs\Lecture 2_2019.pdf," 61  We also choose the size of the chromosome                     population, for instance 6, and randomly  generate an initial population"
+111,pdfs\Lecture 2_2019.pdf,"  Then these strings are converted from binary                     (base 2) to decimal (base 10):  First, a chromosome, that is a string of 16  bits, is partitioned into two 8 - bit strings:  The next step is to calculate the fitness of  each chromosome"
+112,pdfs\Lecture 2_2019.pdf, This is done in two stages
+113,pdfs\Lecture 2_2019.pdf," 62  Now the range of integers that can be handled  by 8 - bits, that is the range from 0 to (2 8 - 1), is                    mapped to the actual range of parameters  x  and  y , that is the range from  - 3 to 3:  To obtain the actual values of  x  and  y , we  multiply their decimal values by 0"
+114,pdfs\Lecture 2_2019.pdf,"0235294  and subtract 3 from the results: 63  Using decoded values of  x  and  y  as inputs in  the mathematical function, the GA calculates  the fitness of each chromosome"
+115,pdfs\Lecture 2_2019.pdf,   will use crossover with the probability equal to  0
+116,pdfs\Lecture 2_2019.pdf,7 and mutation with the probability equal to  0
+117,pdfs\Lecture 2_2019.pdf,001
+118,pdfs\Lecture 2_2019.pdf," As we mentioned earlier, a common  practice in GAs is to specify the number of  generations"
+119,pdfs\Lecture 2_2019.pdf, Suppose the desired number of  generations is 100
+120,pdfs\Lecture 2_2019.pdf," That is, the GA will create  100 generations of 6 chromosomes before  stopping"
+121,pdfs\Lecture 2_2019.pdf, 64 Chromosome locations on the surface of the   65 Chromosome locations on the surface of the   66 Chromosome locations on the surface of   67 Chromosome locations on the surface of   68 Performance graphs for 100 generations of 6  chromosomes: local maximum F i t n e s s 69 Performance graphs for 100 generations of 6  chromosomes: global maximum F i t n e s s 70 Performance graphs for 20 generations of   60 chromosomes F i t n e s s 71 Case study III: Maintenance scheduling  Maintenance scheduling problems are usually                                solved using a combination of search  techniques and heuristics
+122,pdfs\Lecture 2_2019.pdf,  These problems are complex and difficult to                                solve
+123,pdfs\Lecture 2_2019.pdf,  They are NP - complete and cannot be solved  by combinatorial search techniques
+124,pdfs\Lecture 2_2019.pdf,"  Scheduling involves competition for limited                    resources, and is complicated by a great  number of badly formalized constraints"
+125,pdfs\Lecture 2_2019.pdf, 72 1
+126,pdfs\Lecture 2_2019.pdf," Specify the problem, define constraints  and optimum criteria; 2"
+127,pdfs\Lecture 2_2019.pdf, Represent the problem domain as a                       chromosome; 3
+128,pdfs\Lecture 2_2019.pdf, Define a fitness function to evaluate the              chromosome performance; 4
+129,pdfs\Lecture 2_2019.pdf, Construct the genetic operators; 5
+130,pdfs\Lecture 2_2019.pdf, Run the GA and tune its parameters
+131,pdfs\Lecture 2_2019.pdf," Steps in the GA development 73 Case study Scheduling of 7 units in 4 equal intervals  The maximum loads expected during four intervals  are 80, 90, 65 and 70 MW;  Maintenance of any unit starts at the beginning of  an interval and finishes at the end of the same or  adjacent interval"
+132,pdfs\Lecture 2_2019.pdf, The maintenance cannot be  aborted or finished earlier than scheduled;  The net reserve of the power system must be  greater or equal to zero at any interval
+133,pdfs\Lecture 2_2019.pdf, The optimum criterion is the maximum of the net                        reserve at any maintenance period
+134,pdfs\Lecture 2_2019.pdf," The problem constraints: 74 Unit data and maintenance requirements Case study Unit  number  Unit  capacity Number of intervals  required  for unit maintenance  1 20 2 2 15 2 3 35 1 4 40 1 5 15 1 6 15 1 7 10 1 loads expected during four intervals are                           80, 90, 65 and 70 MW, respectively"
+135,pdfs\Lecture 2_2019.pdf,  75 Unit gene pools Chromosome for the scheduling problem 76 The crossover operator 77 The mutation operator 78 Performance graphs and the best maintenance                       schedules created in a population of 20 chromosomes ( a ) 50 generations F i t n e s s M W 79 ( b ) 100 generations Performance graphs and the best maintenance                       schedules created in a population of 20 chromosomes F i t n e s s 80 ( b ) Mutation rate is 0
+136,pdfs\Lecture 2_2019.pdf,01 Performance graphs and the best maintenance                schedules created in a population of 100 chromosomes F i t n e s s 81 Performance graphs and the best maintenance                schedules created in a population of 100 chromosomes ( a ) Mutation rate is 0
+137,pdfs\Lecture 2_2019.pdf,001 82 Fitness Function  83 Genetic Cars [Java Applet] 84 Brian storming:  Why genetic algorithms work? Think intuitively and  mathematically
+138,pdfs\Lecture 2_2019.pdf, 85  the aerodynamic shape of its nose using GA  86 Neuro - evolution  - Car learns to drive [5:52] 87 Adapting Morphology to Multiple Tasks in  Evolved Virtual Creatures [6:02] 88 89 Auto adaptable walking robot with genetic  algorithm (2:57)  Evolved Virtual Creature [3:36] 90 Genetic algorithm
+139,pdfs\Lecture 2_2019.pdf, Learning to jump over  ball [2:53] 91 Let us practice one hour thinking at  home! Q1
+140,pdfs\Lecture 2_2019.pdf, What is my life most important question? Q2
+141,pdfs\Lecture 2_2019.pdf, What is my life most important optimization  problem? Q3
+142,pdfs\Lecture 2_2019.pdf, Which research real - world applications are more  attractive for me? And why? Q4
+143,pdfs\Lecture 2_2019.pdf, How can I balance my study/work and life? Q5
+144,pdfs\Lecture 2_2019.pdf, Who is/are my academic and life role model(s)? Q6
+145,pdfs\Lecture 2_2019.pdf, How did/do I select my research direction(s)? 92 Let us practice one hour thinking at  home!  (Cont
+146,pdfs\Lecture 2_2019.pdf,) Q7
+147,pdfs\Lecture 2_2019.pdf, Do I target academia or industry in future?  Q8
+148,pdfs\Lecture 2_2019.pdf, How do I measure successes in my life? Q9
+149,pdfs\Lecture 2_2019.pdf, What are the main constraints in my life? Q10
+150,pdfs\Lecture 2_2019.pdf, How can I have a better relationship with my  supervisor(s)?  Q11
+151,pdfs\Lecture 2_2019.pdf, What can be my highest life achievement?  Q12
+152,pdfs\Lecture 2_2019.pdf, How can I make my life more happier?  93 Running GA in Matlab: An Example  Run in  Matlab :   optimtool (' ga ') Objective function: @(x) (x(1)  - 0
+153,pdfs\Lecture 2_2019.pdf,2)^2 + (x(2)  - 1
+154,pdfs\Lecture 2_2019.pdf,7)^2 + (x(3)  - 5
+155,pdfs\Lecture 2_2019.pdf,"1)^2 94 95 Sample GA application   Programming Architecture  - Genetic Algorithms  - Structural Optimization Of Free Form Grid Shells  [2:11]  96 Radiation Therapy Planning by  Genetic Algorithm  [4:33] 97 Reducing the searching space by using well - designed representation  98 8 - Queen Problem  Method 1) Encode a solution by a vector of eight Cartesian  positions x = (p1, p2, "
+156,pdfs\Lecture 2_2019.pdf, 
+157,pdfs\Lecture 2_2019.pdf, 
+158,pdfs\Lecture 2_2019.pdf," , p8) where pi = (xi, yi) represents  the Cartesian position of the queen i:  The number of  possibilities (size of the search space)=  64^8 that is over  4  billion candidate solutions "
+159,pdfs\Lecture 2_2019.pdf,"  Method 2) If we prohibit more than one queen per row, so  that each queen is assigned to a separate row:  The number  of possibilities = 8^8 candidate solutions which is over  16  million possibilities (~0"
+160,pdfs\Lecture 2_2019.pdf,4% of method 1) 
+161,pdfs\Lecture 2_2019.pdf,"  Method 3) if we forbid two queens to be both in the same  column or row, the encoding will be reduced to a  permutation of the n queens:  The number of possibilities =  n! candidate solutions, which is only  40,320 possibilities  for  the 8 - Queens problem  (~0"
+162,pdfs\Lecture 2_2019.pdf,001% of method 1)
+163,pdfs\Lecture 2_2019.pdf," 99 Important Conclusion  Do your best to reduce the search space   unnecessarily heavy task on shoulder of  an optimizer by just doing a fast modeling  100 Bonus Question For which of following cases, does the search space grow  faster? Why? Show mathematically"
+164,pdfs\Lecture 2_2019.pdf," a) Increasing range of the variables by factor of k b) Increasing dimension of the search space  by factor of k 101 Bonus task:  Design a GA (chromosome, crossover,  mutation, fitness function) to solve 8 - queen problem [1%] 102 BQ What is the most difficult two dimensional problem, which  even the super computers are not able to solve it? 103 Evolution is a Blind Watchmaker [9:48] 104 U"
+165,pdfs\Lecture 2_2019.pdf, S
+166,pdfs\Lecture 2_2019.pdf," PATENT 5,719,794  105 Antenna Design  The problem (Altshuler and Linden 1998) is to  determine the  x - y - z coordinates of the 3 - dimensional position of the ends ( X1, Y1, Z1, X2, Y2,   ) of 7 straight wires so that the  resulting 7 - wire antenna satisfies certain  performance requirements  The first wire starts at feed point (0, 0, 0) in the  middle of the ground plane  The antenna must fit inside the 0"
+167,pdfs\Lecture 2_2019.pdf,5  cube 106 Antenna Design  105 - bit chromosome  Each  x - y - z coordinate is represented by 5 bits  (4 - bit granularity for data plus a sign bit)  Total chromosome size is 3   7   5 = 105 bits X 1 Y 1 Z 1 X 2 Y 2 Z 2  +0010 - 1110 +0001 +0011 - 1011 +0011  107 Antenna Fitness  Antenna is for ground - to - satellite communications for  cars and handsets  We desire near - uniform gain pattern 10  above the  horizon  Fitness is measured based on the antenna's radiation  pattern
+168,pdfs\Lecture 2_2019.pdf," The radiation pattern is simulated by National  Electromagnetics Code (NEC) 108 Antenna Fitness   Fitness is sum of the squares of the difference between  the average gain and the antenna's gain  Sum is taken for angles   between  - 90  and +90  and  all azimuth angles   from 0  to 180   The smaller the value of fitness, the better 109 NASA EVOLVED ANTENNA Utilized in the satellite launched in 2006 110 111 Designing 3D solar cells (MIT)  112 113 114 115 Eternity II (X256) , $2M problem 116 What kind of the optimization problem is this?  Why is that very complex and hard to solve? Is there any unsolved problem about a  cube?  117 The smallest Euler brick, discovered by Paul Halcke in 1719, has  edges ( a , b , c ) = (44, 117, 240) and face diagonals (125, 244, 267)"
+169,pdfs\Lecture 2_2019.pdf, A perfect cuboid  (also called a perfect box) is an Euler brick whose space  diagonal also has integer length
+170,pdfs\Lecture 2_2019.pdf," Is there any unsolved problem related  to a sphere?  118 Unequal sphere packing Is there any unsolved problem related  to a polygon?  119 The Polygonal Illumination Problem  Given a polygon S constructed with mirrors as  sides, and given a point P in the interior of S,  we can ask  if the inside of S  will be completely  illuminated by a  light source at P? The Polygonal Illumination Problem (Cont"
+171,pdfs\Lecture 2_2019.pdf,")  For every S and P, the answer is yes"
+172,pdfs\Lecture 2_2019.pdf,"  No counterexample is known, but no one has a proof"
+173,pdfs\Lecture 2_2019.pdf,  Even this easier problem is open: Does every polygon S  have any point P where a light source would illuminate  the interior? Pentagonal Tiling (open problem) 122 Bonus Activity   Report three unsolved problems in your major 123  multiplication  124  multiplication (Cont
+174,pdfs\Lecture 2_2019.pdf,)  125  multiplication (Cont
+175,pdfs\Lecture 2_2019.pdf,") 126 For n=100,000 (100000^3)/(100000^2"
+176,pdfs\Lecture 2_2019.pdf,81) = 8
+177,pdfs\Lecture 2_2019.pdf,"9125 times faster Oh, Seunghyun, and Byung - Ro Moon"
+178,pdfs\Lecture 2_2019.pdf," ""Automatic reproduction of a genius  algorithm: Strassen's algorithm revisited by genetic search"
+179,pdfs\Lecture 2_2019.pdf,""" IEEE Transactions  on Evolutionary Computation 14"
+180,pdfs\Lecture 2_2019.pdf,2 (2010): 246 - 251
+181,pdfs\Lecture 2_2019.pdf,"   mathematician, announced a clever algorithm to reduce  the asymptotic complexity of n*n matrix multiplication  from the order of  n^3 to n^2"
+182,pdfs\Lecture 2_2019.pdf,81 
+183,pdfs\Lecture 2_2019.pdf, It soon became one of the  most famous scientific discoveries in the 20th century  and provoked numerous studies by other mathematicians   and people are still curious  how Strassen developed his algorithm  we found  608 algorithms that have the same quality as  Strassen's  127 BQ: How can we model the  previous problem as an  optimization problem? 128 
